@@ -9,27 +9,14 @@ public abstract class Reunion {
     private Instant horaPrevista;
     private Instant horaInicio;
     private Instant horaFinal;
-    private Instant[] horario;
     private TipoReunion tipoReunion;
 
 
     public Reunion(){
 
 
-        horario = new Instant[]{horaPrevista, horaInicio, horaFinal};
+
     }
 
 
-    public Date getTime(){
-        return fecha;
-    }
-
-
-    public Instant[] getHorario(){
-        return horario;
-    }
-
-    public TipoReunion getTipo(){
-        return tipoReunion;
-    }
 }

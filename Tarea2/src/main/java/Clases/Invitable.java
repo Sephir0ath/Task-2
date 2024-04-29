@@ -1,2 +1,5 @@
-package Clases;public interface Invitable {
+package Clases;
+
+public interface Invitable {
+    void invitar();
 }
