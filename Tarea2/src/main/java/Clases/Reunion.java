@@ -14,9 +14,29 @@ public abstract class Reunion {
 
     public Reunion(){
 
-
+    }
+    public ArrayList<Empleado> obtenerAsistencia(){
 
     }
+    public ArrayList<Empleado> obtenerAusencias(){
 
+    }
+    public ArrayList<Empleado> obtenerRetrasos(){
 
+    }
+    public int obtenerTotalAsistencia(){
+
+    }
+    public float PorcentajeAsistencia(){
+        // Tomar cantidad de invitados, cantidad de asistencias de obtTotalAsistencia, con eso calcular %
+    }
+    public float calcularTiempoReal(){
+        // concepto: Hora inicio - hora final
+    }
+    public void iniciar(){
+        // Declara hora inicio
+    }
+    public void finalizar(){
+        // Declara hora final
+    }
 }
