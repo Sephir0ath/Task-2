@@ -3,20 +3,26 @@ package Clases;
 import java.util.ArrayList;
 
 public class Departamento {
-    private String nombre;
-    private ArrayList<String> empleadosId = new ArrayList<>();
+    private String nombreDepartamento;
+    private ArrayList<Empleado> empleados = new ArrayList<>();
 
-    public Departamento(){
+    public Departamento(String nombre){
+        this.nombreDepartamento = nombre;
     }
 
     public void addEmpleado(Empleado empleado){
-        empleadosId.add(empleado.getId());
+        empleados.add(empleado);
     }
 
     public void deleteEmpleado(Empleado empleado){
-        empleadosId.remove(empleado.getId());
+        empleados.remove(empleados.indexOf(empleado));
     }
 
+    public ArrayList<Empleado> getEmpleados(){
+        return empleados;
+    }
 
-
+    public String getNombreDepartamento(){
+        return nombreDepartamento;
+    }
 }
