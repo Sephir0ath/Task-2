@@ -1,14 +1,16 @@
 package Clases;
 
-public class ReunionVirtual {
-    private String enlace;
-    public ReunionVirtual(Invitacion invitacion, String enlace){
+public class ReunionPresencial extends Reunion{
+    private String sala;
+
+    public ReunionPresencial(Invitacion invitacion, String sala){
         super(invitacion);
-        this.enlace = enlace;
+        this.sala = sala;
     }
 
-    public String getEnlace(){
-        return enlace;
+    @Override
+    public String getAcceso() {
+        return sala;
     }
 
     @Override
