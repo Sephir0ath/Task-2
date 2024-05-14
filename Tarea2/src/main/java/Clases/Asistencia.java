@@ -31,6 +31,7 @@ public class Asistencia{
     /**
      * Método para obtener la lista de empleados que llegan tarde a la reunión.
      * Se considerará "tarde" 5 minutos después de la hora de inicio.
+     *
      * @param horaInicio Instant que indica el momento en el que se inicia la reunión.
      * @return ArrayList de empleados que llegaron tarde.
      * @throws NoIniciadoReunionException Se lanza si la reunión no ha iniciado.
@@ -52,6 +53,7 @@ public class Asistencia{
     /**
      * Método para obtener la lista de empleados que no asistieron a la reunión.
      * Para iniciar este método la reunión debe haber finalizado.
+     *
      * @param listaInvitados Lista de empleados invitados a la reunión.
      * @param horaInicio Instant que indica el momento en el que se inicia la reunión.
      * @param horaFinal Instant que indica el momento en el que se termina la reunión
@@ -79,6 +81,7 @@ public class Asistencia{
     /**
      * Método para obtener la lista de empleados que asistieron a la reunión.
      * No hace diferencia entre atrasados y puntuales.
+     *
      * @param horaInicio Instant que indica el momento en el que se inicia la reunión.
      * @return ArrayList de empleados que asistieron.
      * @throws NoIniciadoReunionException Se lanza si la reunión no ha iniciado.
@@ -93,6 +96,7 @@ public class Asistencia{
 
     /**
      * Método que registra la llegada de un empleado a la reunión junto a su hora.
+     *
      * @param empleado Empleado que llega a la reunión.
      * @param horaInicio Instant que indica el momento en el que se inicia la reunión.
      * @param horaFinal Instant que indica el momento en el que se termina la reunión.

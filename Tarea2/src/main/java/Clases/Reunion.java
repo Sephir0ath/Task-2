@@ -117,7 +117,6 @@ public abstract class Reunion{
     /**
      * Metodo para crear una instancia de Nota y luego añadirla al ArrayList de notas
      *
-     *
      * @param contenido String que contiene la informacion de la nota
      * @throws NoIniciadoReunionException Excepcion si no ha iniciado la reunion
      */
