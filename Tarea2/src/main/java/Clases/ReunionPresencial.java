@@ -18,7 +18,7 @@ public class ReunionPresencial extends Reunion{
     }
 
     /**
-     * Metodo getter, obtiene el acceso donde se llevara a cobo la reunion presencial
+     * Metodo getter, obtiene el acceso donde se llevara a cabo la reunion presencial
      *
      * @return sala tipo String de ReunionPresencial
      */
