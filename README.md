@@ -5,7 +5,7 @@ Tarea 2 de la asignatura de Desarrollo orientado a Objetos de la Universidad de 
 
 ### Contribuyentes ✨
 * [Juan Felipe Raysz Muñoz](https://github.com/Kingsephir)
-* [Francisca Isidora Núñez Larenas](https://github.com/sshiro0)
+* [Manuel Isaac Núñez Larenas](https://github.com/sshiro0)
 * [Matias Felipe Yener Valdebenito Valenzuela](https://github.com/Mazulini)
 
 ---
